@@ -23,6 +23,7 @@ autom4te.cache
 
 # in-tree configure-generated files
 Makefile
+!examples/Makefile
 src/Makefile
 /config.h
 config.log
