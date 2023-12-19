@@ -5,7 +5,7 @@ Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Build-Depends:
 # Debian build system
    debhelper-compat (= 13)
- , dh-elpa [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hppa ppc64 riscv64 sh4 sparc64 x32]
+ , dh-elpa [amd64 arm64 armel armhf i386 loong64 mips64el mipsel ppc64el s390x hppa ppc64 riscv64 sh4 sparc64 x32]
 # C/C++
  , zlib1g-dev
  , libgmock-dev <!nocheck>
@@ -29,6 +29,7 @@ Build-Depends-Indep:
 # Java
    ant
  , default-jdk
+ , javahelper
  , maven-repo-helper
  , libguava-java
  , libgoogle-gson-java
@@ -216,7 +217,7 @@ Description: Python 3 bindings for protocol buffers
 Package: libprotobuf-java
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${java:Depends}, ${misc:Depends}
 Section: java
 Description: Java bindings for protocol buffers
  Protocol buffers are a flexible, efficient, automated mechanism for
