@@ -1,3 +1,9 @@
+protobuf (3.21.12-3deepin1) unstable; urgency=medium
+
+  * Fix timezone test (closes: #1050937).
+
+ -- Chang Yang <yangchang@deepin.org>  Tue, 19 Dec 2023 11:43:05 +0800
+
 protobuf (3.21.12-3) unstable; urgency=medium
 
   * Fix build-time tests on 32 bit architectures (closes: #1033998).
