@@ -1,3 +1,17 @@
+protobuf (3.21.12-8deepin4) unstable; urgency=medium
+
+  * Fix CVE-2026-0994: Fix Any recursion depth bypass in
+    json_format.ParseDict
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 08 May 2026 00:51:21 +0800
+
+protobuf (3.21.12-8deepin3) unstable; urgency=medium
+
+  * Fix CVE-2025-4565: Add recursion depth limits to prevent DoS in
+    protobuf-python decoder
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 08 May 2026 00:51:21 +0800
+
 protobuf (3.21.12-8deepin2) unstable; urgency=high
 
   [ Laszlo Boszormenyi (GCS) ]
