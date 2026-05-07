@@ -20,3 +20,11 @@ test_scope_for_junit.patch
 stop_using_backward_compatibility_timezones.patch
 python3.12.diff
 CVE-2024-7254.patch
+
+# CVE-2025-4565: DoS via python recursion limit
+CVE-2025-4565-1.patch
+CVE-2025-4565-2.patch
+CVE-2025-4565-3.patch
+
+# CVE-2026-0994: Any recursion depth bypass in json_format.ParseDict
+CVE-2026-0994.patch
